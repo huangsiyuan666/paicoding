@@ -44,6 +44,8 @@
         <jwt.version>4.4.0</jwt.version>
     </properties>
 
+
+
     <dependencyManagement>
         <dependencies>
             <dependency>
