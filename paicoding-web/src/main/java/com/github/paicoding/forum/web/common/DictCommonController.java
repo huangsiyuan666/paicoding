@@ -37,4 +37,5 @@ public class DictCommonController {
         Map<String, Object> bannerDTOPageVo = dictCommonService.getDict();
         return ResVo.ok(bannerDTOPageVo);
     }
+
 }
