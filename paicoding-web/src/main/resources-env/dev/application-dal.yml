@@ -33,8 +33,6 @@ spring:
     port: 6379
     password:
 
-
-
 # elasticsearch配置
 elasticsearch:
   # 是否开启ES？本地启动如果没有安装ES，可以设置为false关闭ES
