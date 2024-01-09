@@ -13,6 +13,7 @@ import org.thymeleaf.spring5.SpringTemplateEngine;
  */
 @Component
 public class TemplateEngineHelper {
+
     @Autowired
     private SpringTemplateEngine springTemplateEngine;
 
