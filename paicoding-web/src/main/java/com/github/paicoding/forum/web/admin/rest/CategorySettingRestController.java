@@ -29,14 +29,12 @@ public class CategorySettingRestController {
     @Autowired
     private CategorySettingService categorySettingService;
 
-
     @Permission(role = UserRole.ADMIN)
     @PostMapping(path = "save")
     public ResVo<String> save(@RequestBody CategoryReq req) {
         categorySettingService.saveCategory(req);
         return ResVo.ok("ok");
     }
-
 
     @Permission(role = UserRole.ADMIN)
     @GetMapping(path = "delete")
