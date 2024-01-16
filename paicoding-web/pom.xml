@@ -11,6 +11,7 @@
 
     <artifactId>paicoding-web</artifactId>
 
+
     <properties>
         <jmh.version>1.35</jmh.version>
         <webp-imageio.version>0.2.1</webp-imageio.version>
