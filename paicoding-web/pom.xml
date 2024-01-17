@@ -133,7 +133,6 @@
         </dependency>
 
         <!-- Spock -->
-
         <dependency>
             <groupId>org.spockframework</groupId>
             <artifactId>spock-core</artifactId>
