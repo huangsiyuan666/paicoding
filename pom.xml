@@ -160,6 +160,7 @@
                 <artifactId>opencv</artifactId>
                 <version>${opencv.version}</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
     <profiles>
